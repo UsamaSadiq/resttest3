@@ -34,9 +34,9 @@ setup(
     tests_require=install_requires,
     include_package_data=True,
     package_data={'report': ['reports/template/*.html']},
-    test_suite="resttest3.tests",
+    test_suite="pythonresttest.tests",
     entry_points={
-        'console_scripts': ['resttest3=resttest3.runner:main'],
+        'console_scripts': ['resttest3=pythonresttest.runner:main'],
     }
 
 )
